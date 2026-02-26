@@ -80,6 +80,23 @@ nav a:hover {
     max-width: 600px;
 }
 
+    .brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand img {
+    height: 55px; /* diperbesar */
+}
+
+.brand span {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
 /* ===== SECTION ===== */
 .section {
     padding: 100px 0;
@@ -162,6 +179,17 @@ footer {
 
     .menu-toggle {
         display: block;
+    }
+}
+
+    @media (max-width: 768px) {
+
+    .brand img {
+        height: 40px;
+    }
+
+    .brand span {
+        font-size: 16px;
     }
 }
 </style>
